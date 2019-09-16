@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'minecraft';
+    src: url('fonts/minecraft.eot');
+    src: local('minecraft'), url('fonts/minecraft.ttf') format('truetype') ;
+}
+
+body {
+    font-family: minecraft;
+}
+
+#header {
+    color: blue;
+    text-align: center;
+}

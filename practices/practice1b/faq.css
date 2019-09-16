@@ -1,0 +1,33 @@
+.qa {
+    color: #50c7b7;
+    font-size: 25px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.ucas {
+    color: #3300ff;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+ul.first {
+    text-transform: uppercase;
+}
+
+ul.second {
+    list-style-type: square;
+    color: #336600;
+}
+
+ul.third {
+    list-style-type: circle;
+}
+
+#header {
+    border-style: groove;
+}
+
+#footer {
+    border-style: outset;
+}
