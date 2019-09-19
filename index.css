@@ -1,14 +1,38 @@
 @font-face {
     font-family: 'minecraft';
-    src: url('fonts/minecraft.eot');
-    src: local('minecraft'), url('fonts/minecraft.ttf') format('truetype') ;
+    src: url('fonts/minecraftregular.eot');
+    src: local('minecraftregular'), url('fonts/minecraftregular.ttf') format('truetype') ;
+}
+
+@font-face {
+    font-family: 'minecraftmainmenu';
+    src: url('fonts/minecraftmainmenu.eot');
+    src: local('minecraftmainmenu'), url('fonts/minecraftmainmenu.ttf') format('truetype') ;
 }
 
 body {
     font-family: minecraft;
+    background-attachment: fixed;
+    background-image: url('images/minecraft2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #header {
-    color: blue;
+    font-family: minecraftmainmenu;
+    font-size: 25px;
     text-align: center;
+    color: darkgray;
+    text-shadow: 0px 7px #000000;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   { transform: scale(1);}
+    25%  { transform: scale(1.05);}
+    50%  { transform: scale(1);}
+    75%  { transform: scale(1.05);}
+    100% { transform: scale(1);}
 }
