@@ -19,31 +19,26 @@ body {
     text-align: center;
 }
 
-#header {
+.header {
     font-family: minecraftmainmenu;
     text-align: center;
     color: darkgray;
     text-shadow: 0px 7px #000000;
-    
-}
-
-h1 {
     line-height: 100px;
     margin: 0;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    font-size: 25px;
+    font-size: 50px;
 }
 
-@keyframes example {
-    0%   { font-size: 25px;}
-    25%  { font-size: 30px;}
-    50%  { font-size: 25px;}
-    75%  { font-size: 30px;}
-    100% { font-size: 25px;}
+@keyframes bounce {
+    0%   { font-size: 35px;}
+    25%  { font-size: 40px;}
+    50%  { font-size: 35px;}
+    75%  { font-size: 40px;}
+    100% { font-size: 35px;}
 }
 
-a:link {
-    color: #1bff2e;
+.bounce {
+    animation: bounce 4s infinite;
 }
+
+
