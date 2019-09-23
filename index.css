@@ -16,23 +16,34 @@ body {
     background-image: url('images/minecraft2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 
 #header {
     font-family: minecraftmainmenu;
-    font-size: 25px;
     text-align: center;
     color: darkgray;
     text-shadow: 0px 7px #000000;
+    
+}
+
+h1 {
+    line-height: 100px;
+    margin: 0;
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    font-size: 25px;
 }
 
 @keyframes example {
-    0%   { transform: scale(1);}
-    25%  { transform: scale(1.05);}
-    50%  { transform: scale(1);}
-    75%  { transform: scale(1.05);}
-    100% { transform: scale(1);}
+    0%   { font-size: 25px;}
+    25%  { font-size: 30px;}
+    50%  { font-size: 25px;}
+    75%  { font-size: 30px;}
+    100% { font-size: 25px;}
+}
+
+a:link {
+    color: #1bff2e;
 }
