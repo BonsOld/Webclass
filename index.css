@@ -26,19 +26,82 @@ body {
     text-shadow: 0px 7px #000000;
     line-height: 100px;
     margin: 0;
-    font-size: 50px;
+    font-size: 70px;
+    position: relative;
 }
 
 @keyframes bounce {
-    0%   { font-size: 35px;}
-    25%  { font-size: 40px;}
-    50%  { font-size: 35px;}
-    75%  { font-size: 40px;}
-    100% { font-size: 35px;}
+    0%   { font-size: 30px;}
+    25%  { font-size: 32px;}
+    50%  { font-size: 30px;}
+    75%  { font-size: 32px;}
+    100% { font-size: 30px;}
 }
 
 .bounce {
-    animation: bounce 4s infinite;
+    animation: bounce 1s infinite;
+    line-height: 30px;
+    transform: rotate(-20deg);
+    color: yellow;
+    position: absolute;
+    top: 70px;
+    right: 170px;
+    text-shadow: 3px 3px rgb(59, 59, 59);
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
 }
 
 
+#myProjects {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+
+#myPractices {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+
+#myBooks {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+
+button {
+    font-family: minecraft;
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+    width: 400px;
+    height: 75px;
+    background-color: darkgray;
+    border-style: outset;
+    border-width: 4px;
+    border-color: #000000;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: black;
+}
+
+button:hover {
+    background-color: rgb(67, 173, 41);
+    color: white;
+    border-color: rgb(67, 173, 41);
+    outline-color: white;
+}
