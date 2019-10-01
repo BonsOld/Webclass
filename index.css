@@ -38,7 +38,7 @@ body {
     100% { font-size: 30px;}
 }
 
-.bounce {
+#bounce {
     animation: bounce 1s infinite;
     line-height: 30px;
     transform: rotate(-20deg);
