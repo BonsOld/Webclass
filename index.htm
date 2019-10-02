@@ -9,10 +9,9 @@
     </head>
     <body window.onload="splashtext()">
         <audio autoplay loop>
-            <source src="cave1.ogg" type="audio/ogg">
-            <source src="cave1.mp3" type="audio/mpeg">
+            <source src="sounds/menu.mp3" type="audio/mpeg">
         </audio>
-        <audio id="click" src="click.mp3" preload="auto"></audio>
+        <audio id="click" src="sounds/click.mp3" preload="auto"></audio>
 
         <h1 class="header">Benson Young's Home Page</h1>
         <div id="bounce"></div>
@@ -21,7 +20,8 @@
         <br>
 
         <div>
-            <button onclick="document.getElementById('click').play(); myProjects()">Projects</button>
+            <button onclick="document.getElementById('click').play(); myProjects(); setHalfVolume()">Projects
+            </button>
 
             <div id="myProjects">
                 <a href="projects/project1/project1.html" target="_blank">Project 1</a>
@@ -38,7 +38,7 @@
         <br>
 
         <div>
-            <button onclick="document.getElementById('click').play(); myPractices()">Practices</button>
+            <button onclick="document.getElementById('click').play(); myPractices(); setHalfVolume()">Practices</button>
 
             <div id="myPractices">
                 <a href="practices/practice1/practice1.htm" target="_blank">Practice 1</a>
@@ -61,7 +61,7 @@
         <br>
 
         <div>
-            <button onclick="document.getElementById('click').play(); myBooks()">Book Assignments</button>
+            <button onclick="document.getElementById('click').play(); myBooks(); setHalfVolume()">Book Assignments</button>
 
             <div id="myBooks">
                 <a href="bookfiles/textbook/ch04/bistro.htm" target="_blank">Chap4 Bistro</a>

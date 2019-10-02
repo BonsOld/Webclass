@@ -5,7 +5,7 @@ function myProjects() {
     } else {
       x.style.display = "block";
     }
-};
+}
 
 function myPractices() {
   var x = document.getElementById("myPractices");
@@ -14,7 +14,7 @@ function myPractices() {
   } else {
     x.style.display = "block";
   }
-};
+}
 
 function myBooks() {
   var x = document.getElementById("myBooks");
@@ -23,7 +23,7 @@ function myBooks() {
   } else {
     x.style.display = "block";
   }
-};
+}
 
 window.onload = function splashtext(){
 	var splashes = ["I'm stuff","pip plop","Obama isn't real","Subscribe to PewDiePie","Believe in Steven","Hello Starlight","ðŸ˜ºðŸ˜¸ðŸ˜¹ðŸ˜»ðŸ˜¼ðŸ˜½ðŸ™€ðŸ˜¿ðŸ˜¾","it be like that"
@@ -33,4 +33,9 @@ window.onload = function splashtext(){
 	var lengthSplashes = splashes.length;
 	var randSplashId = Math.floor(Math.random() * lengthSplashes);
 	document.getElementById("bounce").innerHTML = splashes[randSplashId];
-};
+}
+
+function setHalfVolume(){ 
+  var click = document.getElementById("click");
+  click.volume = .1;
+}

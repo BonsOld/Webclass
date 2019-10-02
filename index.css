@@ -10,6 +10,12 @@
     src: local('minecraftmainmenu'), url('fonts/minecraftmainmenu.ttf') format('truetype') ;
 }
 
+@font-face {
+    font-family: 'mcmenu';
+    src: url('fonts/LogoCraft.eot');
+    src: local('mcmenu'), url('fonts/LogoCraft.ttf') format('truetype');
+}
+
 body {
     font-family: minecraft;
     background-attachment: fixed;
